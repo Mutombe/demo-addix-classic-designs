@@ -433,6 +433,106 @@ const siteData = {
       { name: "Chiedza Mapondera", image: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=100&h=100&fit=crop&crop=face", role: "School Administrator", text: "Wonderful experience. The team was courteous, professional, and efficient.", rating: 5, date: "2024-12-10", projectType: "Institutional" },
     ],
   },
+  careers: {
+    heroTitle: [
+      { text: "Design Your " },
+      { text: "Career.", highlight: true },
+    ],
+    heroSubtitle:
+      "Addix Classic Designs is growing. We are looking for talented designers, project managers, and creatives who share our obsession with beautiful, functional spaces.",
+    heroImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=80",
+    cultureTitle: "Why Work With Us?",
+    cultureItems: [
+      {
+        iconName: "Eye",
+        title: "Work on Inspiring Projects",
+        desc: "From luxury residences to boutique hotels, every project is an opportunity to create something extraordinary.",
+      },
+      {
+        iconName: "Rocket",
+        title: "Creative Freedom",
+        desc: "We trust our designers. You will have genuine creative input on every project, not just execution of someone else's vision.",
+      },
+      {
+        iconName: "Heart",
+        title: "Learn From the Best",
+        desc: "Work alongside experienced interior designers with 200+ completed projects. Mentorship is built into our culture.",
+      },
+    ],
+    cultureImage: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
+    cultureImageAlt: "Addix Classic Designs studio workspace",
+    cultureTagline: "Where Talent Meets Taste.",
+    cultureTaglineDesc:
+      "Our studio is a place where creative minds thrive. We design spaces that people love, and we do it with a team that genuinely enjoys the process.",
+    benefits: [
+      { iconName: "CurrencyDollar", title: "Competitive Salary", desc: "Attractive base salary with project completion bonuses." },
+      { iconName: "GraduationCap", title: "Professional Development", desc: "Budget for design courses, software training, and industry events." },
+      { iconName: "Heart", title: "Studio Perks", desc: "Beautiful studio workspace, complimentary refreshments, and flexible hours." },
+      { iconName: "Users", title: "Collaborative Culture", desc: "Small, close-knit team with regular design critiques and knowledge sharing." },
+      { iconName: "Star", title: "Portfolio Building", desc: "Work on high-profile projects that build your professional portfolio." },
+      { iconName: "ShieldCheck", title: "Medical Aid", desc: "Comprehensive medical aid contribution for all full-time team members." },
+    ],
+    positions: [
+      {
+        id: 1,
+        title: "Interior Designer",
+        department: "Design Studio",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Lead residential and commercial interior design projects from concept to completion. Create mood boards, 3D renders, material specifications, and oversee installations.",
+        requirements: [
+          "Degree in Interior Design or Architecture",
+          "3+ years professional interior design experience",
+          "Proficiency in AutoCAD, SketchUp, and 3D rendering software",
+          "Strong material and colour knowledge",
+          "Excellent client communication and presentation skills",
+        ],
+      },
+      {
+        id: 2,
+        title: "Junior Designer",
+        department: "Design Studio",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Support senior designers on projects. Assist with mood boards, material sourcing, 3D modelling, and site visits. Full mentorship and training provided.",
+        requirements: [
+          "Diploma or degree in Interior Design",
+          "Basic proficiency in SketchUp or AutoCAD",
+          "Strong visual sense and attention to detail",
+          "Eagerness to learn and grow in the industry",
+          "Portfolio of academic or personal design work",
+        ],
+      },
+      {
+        id: 3,
+        title: "Project Coordinator",
+        department: "Operations",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Manage project timelines, supplier coordination, budget tracking, and client communication. Ensure every project is delivered on time and within budget.",
+        requirements: [
+          "2+ years in project management or coordination",
+          "Strong organisational and multitasking skills",
+          "Experience in construction, design, or events preferred",
+          "Proficiency in project management tools",
+          "Excellent communication and problem-solving abilities",
+        ],
+      },
+    ],
+    generalApplicationTitle: "Creative and Driven?",
+    generalApplicationSubtitle:
+      "We are always open to meeting talented people. If you are passionate about design and think you would be a great fit, send us your portfolio.",
+    generalApplicationCta: "Send Your Portfolio",
+  },
+
+  footer: {
+    description:
+      "Harare's premier interior design studio. From concept to completion, we create spaces that balance timeless elegance with contemporary comfort.",
+    copyright: "Addix Classic Designs (Pvt) Ltd",
+  },
 };
 
 export default siteData;
